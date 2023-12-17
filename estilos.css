@@ -19,3 +19,8 @@ p,li{
 h2,h3,h4,h5{
     color: grey;
 }
+
+form{
+    padding: 5px;
+    background-color: rgba(195, 151, 236, 0.671);
+}
