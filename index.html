@@ -6,22 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV personal</title>
     <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Noto+Serif:wght@300&family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <h1>Maria Rodriguez</h1>
     <img src="imagenes/pexels-cottonbro-studio-4065621.jpg" alt="imagen principal" width="100%" height="600px">
     <h2>Datos personales</h2>
-    <a>Edad: 26 años</a>
-    <br>
-    <a>Domicilio</a>
-    <h3>Que series me gustan?</h3>
+    <p>Edad: 26 años</p>
+    <p>Domicilio: Buenos Aires, Argentina</p>
+    <h3>Series que me gustan:</h3>
     <ul>
         <li>Picky Blinders</li>
         <li>Big Bang Theory</li>
-        <li>Breaking Bad</li>
+        <li>Game Of Thrones</li>
     </ul>
-    <h4>Que peliculas son las que mas me gustaron?</h4>
+    <h4>Mis peliculas favoritas:</h4>
     <ul>
         <li>Los juegos del Hambre</li>
         <li>Harry potter</li>
@@ -32,31 +35,36 @@
     <p>No me gustan los videojuegos basados en peliculas de terror</p>
     <p>Disfruto de leer libros de ciencia ficcion del escritor Stephen King</p>
     <br>
-    <p>Si queres contactarme podes completar el siguiente formulario:
-    </p>
     <form action="" method="">
-        <p>
-            <label for="nom">Nombre Completo:</label>
-        </p>
-        <p>
-            <input type="text" name="nombre" placeholder=" Nombre" />
-            <input type="text" name="apellido" placeholder="Apellido" />
-        </p>
-        <p>
-            <label for="pass">Contraseña</label>
-            <input type="password" name="pass" />
-        </p>
-        <label for="sexo">sexo</label>
-        <ul>
-            <li>
-                <input type="radio" name="sexo" value="hombre">
-                <label>Hombre</label>
-            </li>
-            <li>
-                <input type="radio" name="sexo" value="mmujer">
-                <label>Mujer</label>
-            </li>
-        </ul>
+        <div>
+            <p>Si queres contactarme podes completar el siguiente formulario:</p>
+        </div>
+        <div>
+            <p>
+                <label for="nom">Nombre Completo:</label>
+                <input type="text" name="nombre" placeholder=" Nombre" />
+                <input type="text" name="apellido" placeholder="Apellido" />
+            </p>
+            <label for="sexo">sexo</label>
+            <ul>
+                <li>
+                    <input type="radio" name="sexo" value="hombre">
+                    <label>Hombre</label>
+                </li>
+                <li>
+                    <input type="radio" name="sexo" value="mujer">
+                    <label>Mujer</label>
+                </li>
+            </ul>
+            <p>
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Enviar"/>
+                <input type="reset" value="Borrar" />
+            </p>
+        </div>
     </form>
 </body>
 <footer>
