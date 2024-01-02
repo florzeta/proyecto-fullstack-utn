@@ -1,1 +1,1 @@
-# proyecto  para la tecnicatura de desarrollo web fullstack
+# proyecto  para la tecnicatura en desarrollo web fullstack
